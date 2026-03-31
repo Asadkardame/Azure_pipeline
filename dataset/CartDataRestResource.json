@@ -1,0 +1,12 @@
+{
+	"name": "CartDataRestResource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CartDataRestService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}

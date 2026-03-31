@@ -1,0 +1,19 @@
+{
+	"name": "User_Dara",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Project_Practice_ADLS_Linked_Service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "User_Data",
+				"fileSystem": "bronze"
+			}
+		},
+		"schema": {}
+	}
+}
