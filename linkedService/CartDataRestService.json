@@ -1,0 +1,13 @@
+{
+	"name": "CartDataRestService",
+	"properties": {
+		"description": "Fetch the cart data from the API",
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://dummyjson.com/carts",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
