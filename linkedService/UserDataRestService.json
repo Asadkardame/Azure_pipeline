@@ -1,0 +1,13 @@
+{
+	"name": "UserDataRestService",
+	"properties": {
+		"description": "Fetch the user data from the API",
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://dummyjson.com/users",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
